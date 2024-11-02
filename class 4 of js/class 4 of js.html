@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript objects and it's properties</h1>
+    <p>There are two different ways to access an object property.</p>
+    <p id="d"></p>
+    <p id="b"></p>
+    <p id="t"></p>
+    <script>
+//create an object.
+var person={
+    firstname:"shiza",
+    lastname:" abbasi",
+    age:16,
+color:"blue"
+    }
+    //Display some data from the object
+    document.getElementById("d").innerHTML="My name is "+ person.firstname+person["lastname"]
+    document.getElementById("b").innerHTML="My fav color is  "+ person.color
+    document.getElementById("t").innerHTML="My age is "+ person.age
+
+    </script>
+</body>
+</html>
